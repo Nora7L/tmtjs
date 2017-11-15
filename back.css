@@ -1,0 +1,49 @@
+.back{
+	display: none;
+	position: fixed;
+	bottom: 10%;
+	right: 5%;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #ccc;
+	cursor: pointer;
+	z-index: 9999999;
+}
+.back:before{
+	content: '';
+	width: 0;
+	height: 0;
+	border:10px solid;	
+	border-color: transparent transparent #fff transparent ;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom:15px;
+	margin: auto;
+
+}
+.back:hover{
+	background-color: #aaa;
+}
+.back:hover:before{
+	content: '';
+	width: 0;
+	height: 0;
+	border:10px solid;	
+	border-color: transparent transparent #ddd transparent ;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom:15px;
+	margin: auto;
+}
+
+@media (max-width: 768px) {
+
+	.back{
+		display: none;
+	}
+}
