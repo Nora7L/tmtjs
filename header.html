@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>header</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="header.css">
+	<style type="text/css">
+		.section{
+			max-width: 1440px;
+			margin: 0 auto;
+			width: 100%;
+			height: 600px;
+			background-color: #ccc;
+			border-bottom: 1px solid red;
+		}
+	</style>
+</head>
+<body>
+	<!-- header -->
+	<header id="header" class="header">
+		<!-- logo -->
+		<div class="header_logo">
+			<a class="header_logo_item" href="" target="_blank"><img src="ceslogo.png"></a>
+			<img class="header_line" src="and.png"> 
+			<a class="header_logo_item" href="" target="_blank"><img src="ceslogo.png"></a>   
+		</div>
+		
+		<div class="header_nav">
+			<!-- 导航 -->
+			<ul class="nav_allitems">
+				<!-- <li><a href="#" class="on">是否可以自动获取section的id建立导航</a></li> -->
+			</ul>
+			<!-- h5导航 -->
+			<div class="navH5_btn"><img src="and.png"></div>
+
+			<!-- 分享 -->
+			<div class="nav_share">
+				<img src="pc_share.png" class="share_icon">
+				<div class="share_allitems">
+					<!-- 微信分享 -->
+					<div class="share_item wxShare"><img src="pc_VX.png"></div>
+					<!-- 微博分享 -->
+					<div class="share_item wbShare"><a href="http://v.t.sina.com.cn/share/share.php?url=http://www.tmtpost.com/event/2018/gbs/index.php/&amp;title=合规与发展-2018全球区块链峰会 &amp;appkey=1898705929&amp;pic=http://www.tmtpost.com/event/2018/gbs/images/share/wb.jpg" target="_blank"><img src="pc_VB.png"></a></div>
+				</div>
+			</div>
+		</div>
+
+	</header>
+	<!-- header end -->
+
+	<!-- banner -->
+	<section class="banner">
+		<img class="banner_item bannerPC" src="">
+		<img class="banner_item bannerH5" src="">
+	</section>
+	<!-- banner end -->
+
+	<div class="allSections">
+		<section type="section" class="section" id="s1" data-name="导航1"></section>
+		<section type="section" class="section" id="s2" data-name="导航2"></section>
+		<section type="section" class="section" id="s3" data-name="导航3"></section>
+		<section type="section" class="section" id="s4" data-name="导航4"></section>
+		<section class="section" id="s4" data-name="导航6"></section>
+	</div>
+	<!-- 微信弹窗 -->
+	<div class="pop_code">
+		<div class="pop_re">
+			<div class="close_code">
+				<img src="and.png">
+			</div>
+			<img src="ceslogo.png" alt="微信二维码">
+		</div>
+	</div>
+	<script type="text/javascript" src="./../js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="header.js"></script>
+</body>
+</html>
